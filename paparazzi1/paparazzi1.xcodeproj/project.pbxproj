@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* paparazzi1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* paparazzi1AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		2C12406611F7531500888322 /* PhotoListItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12406511F7531500888322 /* PhotoListItemViewController.m */; };
+		2C4AD2C8121B330E00B00DCC /* fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD2C7121B330E00B00DCC /* fred.jpg */; };
+		2C4AD2E3121B59B100B00DCC /* PhotoListItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD2E2121B59B100B00DCC /* PhotoListItemViewController.xib */; };
+		2C8DC2EA11F63C3C00AE66FB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DC2E911F63C3C00AE66FB /* Photo.m */; };
+		2C8DC33411F64D5900AE66FB /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33111F64D5900AE66FB /* one.jpg */; };
+		2C8DC33511F64D5900AE66FB /* three.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33211F64D5900AE66FB /* three.JPG */; };
+		2C8DC33611F64D5900AE66FB /* two.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33311F64D5900AE66FB /* two.JPG */; };
+		2CDF27E211F6877B00B397FB /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF27E111F6877B00B397FB /* PhotoDetailViewController.m */; };
+		2CDF27FE11F6882900B397FB /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */; };
+		2CEBDCB311EFE27E007418AF /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBDCB111EFE27E007418AF /* PersonListViewController.m */; };
+		2CEBDCD711F0FFEF007418AF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCD511F0FFEF007418AF /* MainWindow.xib */; };
+		2CEBDCD811F0FFEF007418AF /* PersonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCD611F0FFEF007418AF /* PersonListViewController.xib */; };
+		2CEBDCF111F104C8007418AF /* bob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCEE11F104C8007418AF /* bob.png */; };
+		2CEBDD2211F10F36007418AF /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBDD2011F10F36007418AF /* PhotoListViewController.m */; };
+		2CEBDD2311F10F36007418AF /* PhotoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDD2111F10F36007418AF /* PhotoListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* paparazzi1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paparazzi1AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* paparazzi1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paparazzi1AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* paparazzi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paparazzi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C12406411F7531500888322 /* PhotoListItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListItemViewController.h; sourceTree = "<group>"; };
+		2C12406511F7531500888322 /* PhotoListItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListItemViewController.m; sourceTree = "<group>"; };
+		2C4AD2C7121B330E00B00DCC /* fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fred.jpg; path = images/fred.jpg; sourceTree = "<group>"; };
+		2C4AD2E2121B59B100B00DCC /* PhotoListItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoListItemViewController.xib; path = ui/PhotoListItemViewController.xib; sourceTree = "<group>"; };
+		2C8DC2E811F63C3C00AE66FB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		2C8DC2E911F63C3C00AE66FB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		2C8DC33111F64D5900AE66FB /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = one.jpg; path = images/one.jpg; sourceTree = "<group>"; };
+		2C8DC33211F64D5900AE66FB /* three.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = three.JPG; path = images/three.JPG; sourceTree = "<group>"; };
+		2C8DC33311F64D5900AE66FB /* two.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = two.JPG; path = images/two.JPG; sourceTree = "<group>"; };
+		2CDF27E011F6877B00B397FB /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		2CDF27E111F6877B00B397FB /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoDetailViewController.xib; path = ui/PhotoDetailViewController.xib; sourceTree = "<group>"; };
+		2CEBDCB011EFE27E007418AF /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		2CEBDCB111EFE27E007418AF /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		2CEBDCD511F0FFEF007418AF /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ui/MainWindow.xib; sourceTree = "<group>"; };
+		2CEBDCD611F0FFEF007418AF /* PersonListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonListViewController.xib; path = ui/PersonListViewController.xib; sourceTree = "<group>"; };
+		2CEBDCEE11F104C8007418AF /* bob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bob.png; path = images/bob.png; sourceTree = "<group>"; };
+		2CEBDD1F11F10F36007418AF /* PhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
+		2CEBDD2011F10F36007418AF /* PhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
+		2CEBDD2111F10F36007418AF /* PhotoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoListViewController.xib; path = Classes/PhotoListViewController.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* paparazzi1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paparazzi1_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* paparazzi1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paparazzi1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C12406411F7531500888322 /* PhotoListItemViewController.h */,
+				2C12406511F7531500888322 /* PhotoListItemViewController.m */,
+				2CDF27E011F6877B00B397FB /* PhotoDetailViewController.h */,
+				2CDF27E111F6877B00B397FB /* PhotoDetailViewController.m */,
+				2C8DC2E811F63C3C00AE66FB /* Photo.h */,
+				2C8DC2E911F63C3C00AE66FB /* Photo.m */,
+				1D3623240D0F684500981E51 /* paparazzi1AppDelegate.h */,
+				1D3623250D0F684500981E51 /* paparazzi1AppDelegate.m */,
+				2CEBDCB011EFE27E007418AF /* PersonListViewController.h */,
+				2CEBDCB111EFE27E007418AF /* PersonListViewController.m */,
+				2CEBDD1F11F10F36007418AF /* PhotoListViewController.h */,
+				2CEBDD2011F10F36007418AF /* PhotoListViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* paparazzi1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* paparazzi1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CEBDCC511F0FC5F007418AF /* Images */,
+				2CEBDCC411F0FC53007418AF /* UI */,
+				8D1107310486CEB800E47090 /* paparazzi1-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CEBDCC411F0FC53007418AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2C4AD2E2121B59B100B00DCC /* PhotoListItemViewController.xib */,
+				2CEBDD2111F10F36007418AF /* PhotoListViewController.xib */,
+				2CEBDCD511F0FFEF007418AF /* MainWindow.xib */,
+				2CEBDCD611F0FFEF007418AF /* PersonListViewController.xib */,
+				2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2CEBDCC511F0FC5F007418AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2C4AD2C7121B330E00B00DCC /* fred.jpg */,
+				2C8DC33111F64D5900AE66FB /* one.jpg */,
+				2C8DC33211F64D5900AE66FB /* three.JPG */,
+				2C8DC33311F64D5900AE66FB /* two.JPG */,
+				2CEBDCEE11F104C8007418AF /* bob.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* paparazzi1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "paparazzi1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paparazzi1;
+			productName = paparazzi1;
+			productReference = 1D6058910D05DD3D006BFB54 /* paparazzi1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "paparazzi1" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* paparazzi1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEBDCD711F0FFEF007418AF /* MainWindow.xib in Resources */,
+				2CEBDCD811F0FFEF007418AF /* PersonListViewController.xib in Resources */,
+				2CEBDCF111F104C8007418AF /* bob.png in Resources */,
+				2CEBDD2311F10F36007418AF /* PhotoListViewController.xib in Resources */,
+				2C8DC33411F64D5900AE66FB /* one.jpg in Resources */,
+				2C8DC33511F64D5900AE66FB /* three.JPG in Resources */,
+				2C8DC33611F64D5900AE66FB /* two.JPG in Resources */,
+				2CDF27FE11F6882900B397FB /* PhotoDetailViewController.xib in Resources */,
+				2C4AD2C8121B330E00B00DCC /* fred.jpg in Resources */,
+				2C4AD2E3121B59B100B00DCC /* PhotoListItemViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* paparazzi1AppDelegate.m in Sources */,
+				2CEBDCB311EFE27E007418AF /* PersonListViewController.m in Sources */,
+				2CEBDD2211F10F36007418AF /* PhotoListViewController.m in Sources */,
+				2C8DC2EA11F63C3C00AE66FB /* Photo.m in Sources */,
+				2CDF27E211F6877B00B397FB /* PhotoDetailViewController.m in Sources */,
+				2C12406611F7531500888322 /* PhotoListItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = paparazzi1_Prefix.pch;
+				INFOPLIST_FILE = "paparazzi1-Info.plist";
+				PRODUCT_NAME = paparazzi1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = paparazzi1_Prefix.pch;
+				INFOPLIST_FILE = "paparazzi1-Info.plist";
+				PRODUCT_NAME = paparazzi1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "paparazzi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "paparazzi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
