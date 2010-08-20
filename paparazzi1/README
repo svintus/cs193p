@@ -2,7 +2,7 @@ Stanford CS193P (iPhone Programming) Winter 2010 Assignment 4
 Paparazzi Part 1
 
 Part 1 of the Paparazzi series. Not much to say about it, this is all pretty
-basic code. Code contains a memory leak, fixing is left as an exercise for
+basic stuff. Code contains a memory leak, fixing it is left as an exercise for
 the reader.
 
 
