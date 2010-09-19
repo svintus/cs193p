@@ -12,13 +12,13 @@ NSArray* get_photos(void)
   return [NSArray arrayWithObjects:
             [Photo photoWithName: @"A wonderful day"
                       authorName: @"Fred"
-                        fileName: @"one"],
+                        fileName: @"images/one"],
             [Photo photoWithName: @"Cool photo"
                       authorName: @"Fred"
-                        fileName: @"two"],
+                        fileName: @"images/two"],
             [Photo photoWithName: @"Nice one!"
                       authorName: @"Bob"
-                        fileName: @"three"],
+                        fileName: @"images/three"],
             nil];
 }
 

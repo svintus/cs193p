@@ -13,18 +13,14 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		2C12406611F7531500888322 /* PhotoListItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C12406511F7531500888322 /* PhotoListItemViewController.m */; };
-		2C4AD2C8121B330E00B00DCC /* fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD2C7121B330E00B00DCC /* fred.jpg */; };
 		2C4AD2E3121B59B100B00DCC /* PhotoListItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD2E2121B59B100B00DCC /* PhotoListItemViewController.xib */; };
 		2C8DC2EA11F63C3C00AE66FB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DC2E911F63C3C00AE66FB /* Photo.m */; };
-		2C8DC33411F64D5900AE66FB /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33111F64D5900AE66FB /* one.jpg */; };
-		2C8DC33511F64D5900AE66FB /* three.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33211F64D5900AE66FB /* three.JPG */; };
-		2C8DC33611F64D5900AE66FB /* two.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2C8DC33311F64D5900AE66FB /* two.JPG */; };
 		2CDF27E211F6877B00B397FB /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF27E111F6877B00B397FB /* PhotoDetailViewController.m */; };
 		2CDF27FE11F6882900B397FB /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */; };
+		2CE799881246992400846F8D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2CE799811246992400846F8D /* images */; };
 		2CEBDCB311EFE27E007418AF /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBDCB111EFE27E007418AF /* PersonListViewController.m */; };
 		2CEBDCD711F0FFEF007418AF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCD511F0FFEF007418AF /* MainWindow.xib */; };
 		2CEBDCD811F0FFEF007418AF /* PersonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCD611F0FFEF007418AF /* PersonListViewController.xib */; };
-		2CEBDCF111F104C8007418AF /* bob.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDCEE11F104C8007418AF /* bob.png */; };
 		2CEBDD2211F10F36007418AF /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEBDD2011F10F36007418AF /* PhotoListViewController.m */; };
 		2CEBDD2311F10F36007418AF /* PhotoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEBDD2111F10F36007418AF /* PhotoListViewController.xib */; };
 /* End PBXBuildFile section */
@@ -39,21 +35,17 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C12406411F7531500888322 /* PhotoListItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListItemViewController.h; sourceTree = "<group>"; };
 		2C12406511F7531500888322 /* PhotoListItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListItemViewController.m; sourceTree = "<group>"; };
-		2C4AD2C7121B330E00B00DCC /* fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fred.jpg; path = images/fred.jpg; sourceTree = "<group>"; };
 		2C4AD2E2121B59B100B00DCC /* PhotoListItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoListItemViewController.xib; path = ui/PhotoListItemViewController.xib; sourceTree = "<group>"; };
 		2C8DC2E811F63C3C00AE66FB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		2C8DC2E911F63C3C00AE66FB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
-		2C8DC33111F64D5900AE66FB /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = one.jpg; path = images/one.jpg; sourceTree = "<group>"; };
-		2C8DC33211F64D5900AE66FB /* three.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = three.JPG; path = images/three.JPG; sourceTree = "<group>"; };
-		2C8DC33311F64D5900AE66FB /* two.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = two.JPG; path = images/two.JPG; sourceTree = "<group>"; };
 		2CDF27E011F6877B00B397FB /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
 		2CDF27E111F6877B00B397FB /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
 		2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoDetailViewController.xib; path = ui/PhotoDetailViewController.xib; sourceTree = "<group>"; };
+		2CE799811246992400846F8D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		2CEBDCB011EFE27E007418AF /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
 		2CEBDCB111EFE27E007418AF /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
 		2CEBDCD511F0FFEF007418AF /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ui/MainWindow.xib; sourceTree = "<group>"; };
 		2CEBDCD611F0FFEF007418AF /* PersonListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonListViewController.xib; path = ui/PersonListViewController.xib; sourceTree = "<group>"; };
-		2CEBDCEE11F104C8007418AF /* bob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bob.png; path = images/bob.png; sourceTree = "<group>"; };
 		2CEBDD1F11F10F36007418AF /* PhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
 		2CEBDD2011F10F36007418AF /* PhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
 		2CEBDD2111F10F36007418AF /* PhotoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoListViewController.xib; path = Classes/PhotoListViewController.xib; sourceTree = "<group>"; };
@@ -126,7 +118,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CEBDCC511F0FC5F007418AF /* Images */,
+				2CE799811246992400846F8D /* images */,
 				2CEBDCC411F0FC53007418AF /* UI */,
 				8D1107310486CEB800E47090 /* paparazzi1-Info.plist */,
 			);
@@ -153,18 +145,6 @@
 				2CDF27FD11F6882900B397FB /* PhotoDetailViewController.xib */,
 			);
 			name = UI;
-			sourceTree = "<group>";
-		};
-		2CEBDCC511F0FC5F007418AF /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				2C4AD2C7121B330E00B00DCC /* fred.jpg */,
-				2C8DC33111F64D5900AE66FB /* one.jpg */,
-				2C8DC33211F64D5900AE66FB /* three.JPG */,
-				2C8DC33311F64D5900AE66FB /* two.JPG */,
-				2CEBDCEE11F104C8007418AF /* bob.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +174,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "paparazzi1" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,14 +198,10 @@
 			files = (
 				2CEBDCD711F0FFEF007418AF /* MainWindow.xib in Resources */,
 				2CEBDCD811F0FFEF007418AF /* PersonListViewController.xib in Resources */,
-				2CEBDCF111F104C8007418AF /* bob.png in Resources */,
 				2CEBDD2311F10F36007418AF /* PhotoListViewController.xib in Resources */,
-				2C8DC33411F64D5900AE66FB /* one.jpg in Resources */,
-				2C8DC33511F64D5900AE66FB /* three.JPG in Resources */,
-				2C8DC33611F64D5900AE66FB /* two.JPG in Resources */,
 				2CDF27FE11F6882900B397FB /* PhotoDetailViewController.xib in Resources */,
-				2C4AD2C8121B330E00B00DCC /* fred.jpg in Resources */,
 				2C4AD2E3121B59B100B00DCC /* PhotoListItemViewController.xib in Resources */,
+				2CE799881246992400846F8D /* images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +266,7 @@
 				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -297,7 +280,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};

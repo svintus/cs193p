@@ -1,6 +1,3 @@
-.DS_Store
-build/
-*.swp
-tags
 *.xcodeproj*/*.pbxuser
 *.xcodeproj*/*.mode*
+

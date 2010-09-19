@@ -25,6 +25,8 @@
 -(void) dealloc
 {
   [photoView release];
+  [photo release];
+
   [super dealloc];
 }
 
