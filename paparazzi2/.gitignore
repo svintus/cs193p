@@ -1,0 +1,8 @@
+build/
+*.swp
+*.xcodeproj*/*.pbxuser
+*.xcodeproj*/*.mode*
+*.xcodeproj*/xcuserdata
+*.xcodeproj*/project.xcworkspace
+tags
+
